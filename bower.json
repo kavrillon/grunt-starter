@@ -1,0 +1,21 @@
+{
+  "name": "basic-app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Kevin Avrillon <kavrillon@leadformance.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kavrillon/basicApp",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
