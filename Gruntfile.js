@@ -131,6 +131,16 @@ module.exports = function (grunt) {
                 base: 'dist'
             },
             src: ['**']
+        },
+        uglify: {
+            my_target: {
+                files: [{
+                    expand: true,
+                    cwd: '<%= dirs.js %>',
+                    src: '**/*.js',
+                    dest: '<%= dirs.temp %>/js'
+                }]
+            }
         }
     });
 
